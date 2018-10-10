@@ -2,12 +2,12 @@
 Cookiecutter PyPackage
 ======================
 
-.. image:: https://travis-ci.org//pangeo-data/cookiecutter-pangeo-binder.svg?branch=master
-    :target: https://travis-ci.org//pangeo-data/cookiecutter-pangeo-binder     
+.. image:: https://travis-ci.org/pangeo-data/cookiecutter-pangeo-binder.svg?branch=master
+    :target: https://travis-ci.org/pangeo-data/cookiecutter-pangeo-binder     
 
 Cookiecutter_ template for a Pangeo-Binder Repository.
 
-* GitHub repo: https://github.com//pangeo-data/cookiecutter-pangeo-binder/
+* GitHub repo: https://github.com/pangeo-data/cookiecutter-pangeo-binder/
 * License: BSD
 
 Features
@@ -29,7 +29,7 @@ Cookiecutter 1.4.0 or higher)::
 
 Generate a Python package project::
 
-    cookiecutter https://github.com//pangeo-data/cookiecutter-pangeo-binder.git
+    cookiecutter https://github.com/pangeo-data/cookiecutter-pangeo-binder.git
 
 Then:
 
