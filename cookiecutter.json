@@ -1,0 +1,9 @@
+{
+  "full_name": "Joe Hamman",
+  "email": "joe@example.com",
+  "github_username": "jhamman",
+  "project_name": "Pangeo-Binder-Example",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_short_description": "{{ cookiecutter.project_name }} contains all the boilerplate you need to create a Pangeo-Binder ready repository.",
+  "open_source_license": "BSD license"
+}
