@@ -1,14 +1,15 @@
 language: python
 
+notifications:
+  email: false
+
 python:
-  - "3.5"
-  - "3.4"
-  - "2.7"
-  - "pypy"
+  - "3.6"
+  - "3.7"
 
 install:
   - pip install cookiecutter
 
 script:
   - cookiecutter . --no-input
-  - cd ./python_boilerplate && python setup.py test
+  - cd ./pangeo_binder_example && ls -l */*
