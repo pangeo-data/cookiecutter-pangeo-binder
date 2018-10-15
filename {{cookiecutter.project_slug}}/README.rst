@@ -4,7 +4,7 @@
 
 {{ cookiecutter.project_short_description}}
 
-Try these notebooks on [pangeo.binder.io](http://binder.pangeo.io/): [![Binder](http://binder.pangeo.io/badge.svg)](http://binder.pangeo.io/v2/gh/pangeo-data/pangeo-example-notebooks/master)
+Try these notebooks on pangeo.binder.io_ : |Binder|
 
 See http://pangeo.io for more information.
 
@@ -12,3 +12,9 @@ Features
 --------
 
 * TODO
+
+.. _pangeo.binder.io: http://binder.pangeo.io/
+
+.. |Binder| image:: http://binder.pangeo.io/badge.svg
+    :target: http://binder.pangeo.io/v2/gh/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/master
+
