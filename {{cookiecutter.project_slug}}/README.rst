@@ -16,4 +16,5 @@ Features
 .. _pangeo.binder.io: http://binder.pangeo.io/
 
 .. |Binder| image:: http://binder.pangeo.io/badge.svg
-    :target: http://binder.pangeo.io/v2/gh/pangeo-data/pangeo-example-notebooks/master
+    :target: http://binder.pangeo.io/v2/gh/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/master
+
