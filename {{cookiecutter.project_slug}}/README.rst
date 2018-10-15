@@ -13,7 +13,7 @@ Features
 
 * TODO
 
-.. _pangeo.binder.io: http://binder.pangeo.io/'
+.. _pangeo.binder.io: http://binder.pangeo.io/
 
 .. |Binder| image:: http://binder.pangeo.io/badge.svg
     :target: http://binder.pangeo.io/v2/gh/pangeo-data/pangeo-example-notebooks/master
