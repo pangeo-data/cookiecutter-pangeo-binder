@@ -16,12 +16,14 @@ dependencies:
   - numcodecs
   - python-blosc
   - lz4
+  - nomkl
   - nbserverproxy
   - jupyter
   - ipywidgets
   - graphviz
-  - jupyterlab=0.34
+  - jupyterlab=0.35
   - nodejs
   - pip:
     - kubernetes
+    - graphviz
     - git+https://github.com/dask/dask-kubernetes.git
