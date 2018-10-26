@@ -10,6 +10,7 @@ distributed:
       limit: 5s
 
 kubernetes:
+  worker-name: dask-{JUPYTERHUB_USER}-{uuid}
   worker-template:
     metadata:
     spec:
@@ -24,7 +25,7 @@ kubernetes:
           - 7GB
           - --death-timeout
           - '60'
-        image: WORKER_IMAGE
+        image: ${JUPYTER_IMAGE_SPEC}
         name: dask-worker
         resources:
           limits:
